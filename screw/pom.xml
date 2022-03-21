@@ -83,20 +83,20 @@
                     <dependency>
                         <groupId>mysql</groupId>
                         <artifactId>mysql-connector-java</artifactId>
-                        <version>5.1.24</version>
+                        <version>8.0.18</version>
                     </dependency>
                 </dependencies>
                 <configuration>
                     <!--username-->
-                    <username>root</username>
+                    <username>local_portal_t</username>
                     <!--password-->
-                    <password>root</password>
+                    <password>62a291e55c7a921c</password>
                     <!--driver-->
                     <driverClassName>com.mysql.jdbc.Driver</driverClassName>
                     <!--jdbc url-->
-                    <jdbcUrl>jdbc:mysql://127.0.0.1:3306/dahtsys</jdbcUrl>
-                    <!--生成文件类型  HTML DOC MD-->
-                    <fileType>HTML</fileType>
+                    <jdbcUrl>jdbc:mysql://10.203.173.232:2390/local_portal_t</jdbcUrl>
+                    <!--生成文件类型  HTML WORD MD-->
+                    <fileType>WORD</fileType>
                     <!--打开文件输出目录-->
                     <openOutputDir>false</openOutputDir>
                     <!--生成模板-->
@@ -104,11 +104,11 @@
                     <!--文档名称 为空时:将采用[数据库名称-描述-版本号]作为文档名称-->
                     <!--<docName>测试文档名称</docName>-->
                     <!--描述-->
-                    <description>数据库文档生成</description>
+                    <description>数据库文档</description>
                     <!--版本-->
                     <version>${project.version}</version>
                     <!--标题-->
-                    <title>dahtsys数据库文档</title>
+                    <title>数据库文档</title>
                 </configuration>
                 <executions>
                     <execution>
