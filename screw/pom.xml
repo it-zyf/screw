@@ -43,10 +43,8 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.24</version>
+            <version>8.0.20</version>
         </dependency>
-
-
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -83,18 +81,19 @@
                     <dependency>
                         <groupId>mysql</groupId>
                         <artifactId>mysql-connector-java</artifactId>
-                        <version>8.0.18</version>
+                        <version>5.1.24</version>
                     </dependency>
+
                 </dependencies>
                 <configuration>
                     <!--username-->
-                    <username>local_portal_t</username>
+                    <username>root</username>
                     <!--password-->
-                    <password>62a291e55c7a921c</password>
+                    <password>mySECURITY_PASS119</password>
                     <!--driver-->
                     <driverClassName>com.mysql.jdbc.Driver</driverClassName>
                     <!--jdbc url-->
-                    <jdbcUrl>jdbc:mysql://10.203.173.232:2390/local_portal_t</jdbcUrl>
+                    <jdbcUrl>jdbc:mysql://192.168.2.75:3306/rsng_topo_edit?characterEncoding=UTF-8</jdbcUrl>
                     <!--生成文件类型  HTML WORD MD-->
                     <fileType>WORD</fileType>
                     <!--打开文件输出目录-->
