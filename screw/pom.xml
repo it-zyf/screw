@@ -93,9 +93,9 @@
                     <!--driver-->
                     <driverClassName>com.mysql.jdbc.Driver</driverClassName>
                     <!--jdbc url-->
-                    <jdbcUrl>jdbc:mysql://192.168.2.75:3306/rsng_topo_edit?characterEncoding=UTF-8</jdbcUrl>
+                    <jdbcUrl>jdbc:mysql://192.168.2.124:3306/rsng_topo_edit?characterEncoding=UTF-8</jdbcUrl>
                     <!--生成文件类型  HTML WORD MD-->
-                    <fileType>WORD</fileType>
+                    <fileType>HTML</fileType>
                     <!--打开文件输出目录-->
                     <openOutputDir>false</openOutputDir>
                     <!--生成模板-->
